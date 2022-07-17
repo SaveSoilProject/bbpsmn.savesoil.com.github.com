@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="favi2.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="email">E-Mail</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+      
+          <label for="country">Organization Type</label>
+          <select id="country" name="country">
+            <option value="australia">School</option>
+            <option value="canada">College</option>
+            <option value="usa">University</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <!-- <input type="submit" value="Submit"> -->
+
+          <div class="submit">
+            <a href="index.html">Submit</a>
+          </div>
+          
+        </form>
+      </div>
+</body>

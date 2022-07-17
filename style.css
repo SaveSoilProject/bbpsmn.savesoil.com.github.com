@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(bg3.jpg);
+    width: 100%;
+}
+
+.nav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.banner img{
+    width: 1349px;
+    height: 350px;
+}
+
+.sspara h1{
+    font-size: xx-large;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: yellowgreen;
+}
+
+.sspara li{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: x-large;
+    color: wheat;
+    font-weight: bold;
+}
+
+.sspara h2{
+    font-size: xx-large;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: yellowgreen;
+}
+
+.sspara p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: large;
+    color: wheat;
+    font-weight: bold;
+}
+
+
+.sspara li a{
+    color: magenta;
+}
+
+.next a{
+    bottom: 0%;
+    margin-left: 1250px;
+    color: rgb(121, 119, 119);
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.hr hr{
+    margin-top: 14px;
+}
+
